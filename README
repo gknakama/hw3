@@ -1,0 +1,7 @@
+Homework #3 (due 03/14): Create two tables in your database as USERS(UserFullName, Username, Password) and Mailbox(MessageID, Subject, MsgTime, MsgText, Sender, Receiver, Status), where both Sender and Receiver are users (linked to Username). Write PHP scripts that allow a user to do the following:
+Register with a username and password;
+Login with a registered username and password;
+Send a message to a user;
+Read the message in his/her Inbox;
+Delete a message from his/her Inbox.
+The user interface should have an Inbox and Sent Items. The messages in the Inbox should indicate whether the message is new or read. You can use the Status attribute to distingush new, read and deleted messages.
